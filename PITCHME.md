@@ -102,7 +102,7 @@ Mirai (Japanese for "the future") is malware that turns computer systems running
 
 #VSLIDE
 
-## The sotry behind Carna botnet
+## The story behind Carna botnet
 
 Two years ago while spending some time with the Nmap Scripting Engine (NSE) someone mentioned that we should try the classic telnet login root:root on random IP addresses. This was meant as a joke, but was given a try. We started scanning and quickly realized that there should be several thousand unprotected devices on the Internet.
 
@@ -122,8 +122,8 @@ Two years ago while spending some time with the Nmap Scripting Engine (NSE) some
 
 ## How many infected devices are there, really?
 
-* We enumerate the whole core network (the so-called "bn" component) multiple times a day, and the usual number of Wifatch instances is 60000 (and almost never exceeding 120000). Only these are currently being protected and disinfected.
-* In addition, there is a much larger number of devices with a much smaller component, the so-called "tn" component. The exact number of these is very hard to measure, but it should be around 200000-300000 at any point in time.
+* We enumerate the whole core network multiple times a day, and the usual number of Wifatch instances is 60000 (and almost never exceeding 120000). Only these are currently being protected and disinfected.
+* In addition, there is a much larger number of devices with a much smaller component, the so-called "tn" component ...  these should be around 200000-300000 at any point in time.
 
 #VSLIDE
 
@@ -134,7 +134,7 @@ Uploaded for research purposes and so we can develop IoT and such.*
 
 #HSLIDE
 
-### Let's catch one hunter ...
+### soo ... let's catch one hunter ...
 
 <pre>
 2016-10-28 05:00:46+0200 admin trying auth password
@@ -215,7 +215,7 @@ of computer systems whatsoever.
 
 #VSLIDE
 
-![wordsofwisdom](media/cybergibbons_about_mirai.png)
+![cybergibbons](media/cybergibbons_about_mirai.png)
 
 #VSLIDE
 
@@ -240,9 +240,9 @@ int patch_password()
 #HSLIDE
 
 ## Outcome, so far
-* *Skiddos* did excellent awareness rising capaign, what's next?
-  * INDUSTRIAL INTERNET SECURITY FRAMEWORK (http://www.iiconsortium.org/IISF.htm, ~170p)
-  * Future-proofing the Connected World (https://downloads.cloudsecurityalliance.org/assets/research/internet-of-things/future-proofing-the-connected-world.pdf, ~70p)
+* *Skiddies* did excellent awareness rising capaign, what's next?
+  * INDUSTRIAL INTERNET SECURITY FRAMEWORK (http://www.iiconsortium.org/ IISF.htm, ~170p)
+  * Future-proofing the Connected World (https://downloads.cloudsecurityalliance.org/ assets/research/internet-of-things/ future-proofing-the-connected-world.pdf, ~70p)
   * ... probably many more
 * DDoS as a service is off the shelf for now ...
 
