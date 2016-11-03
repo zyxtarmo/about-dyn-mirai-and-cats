@@ -62,6 +62,11 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 ## Dyn service network
 ![Dyn network](media/dyn-network-map.png)
 
+#VSLIDE
+
+1. .. elevated bandwidth against our Managed DNS platform in the Asia Pacific, South America, Eastern Europe, and US-West regions ..
+2. .. second attack began against our Managed DNS platform. This attack was more globally diverse ...
+
 #HSLIDE
 
 ##IOT
@@ -90,11 +95,27 @@ Mirai (Japanese for "the future") is malware that turns computer systems running
 
 #VSLIDE
 
-History ...
+## History
+
+* http://internetcensus2012.bitbucket.org/paper.html
+* https://gitlab.com/rav7teif/linux.wifatch
 
 #VSLIDE
 
-Current ...
+*Two years ago while spending some time with the Nmap Scripting Engine (NSE) someone mentioned that we should try the classic telnet login root:root on random IP addresses. This was meant as a joke, but was given a try. We started scanning and quickly realized that there should be several thousand unprotected devices on the Internet.*
+
+![Clientmap](media/clientmap_16to9_small.jpg)
+
+#VSLIDE
+
+![Patched](media/Fig1_26.png)
+
+#VSLIDE
+
+## https://github.com/jgamblin/Mirai-Source-Code
+
+*Leaked Linux.Mirai Source Code for Research/IoT Development Purposes
+Uploaded for research purposes and so we can develop IoT and such.*
 
 #HSLIDE
 
