@@ -6,7 +6,9 @@
 * How to build a IoT botnet yourself and how to track one
 * Why black- and whitehat hackers love cat pictures?
 
-#HSLIDE?image=media/DNS_no_response.png
+#HSLIDE
+
+![Error](media/DNS_no_response.png)
 
 #VSLIDE
 
@@ -44,11 +46,11 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 
 #VSLIDE
 
-![Unicast](image=media/43.png)
+![Unicast](media/43.png)
 
 #VSLIDE
 
-![Anycast](image=media/46.png)
+![Anycast](media/46.png)
 
 #VSLIDE
 
