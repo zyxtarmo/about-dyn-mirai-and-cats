@@ -102,7 +102,7 @@ Mirai (Japanese for "the future") is malware that turns computer systems running
 
 #VSLIDE
 
-## The sotry behind Carna botnet
+## The story behind Carna botnet
 
 Two years ago while spending some time with the Nmap Scripting Engine (NSE) someone mentioned that we should try the classic telnet login root:root on random IP addresses. This was meant as a joke, but was given a try. We started scanning and quickly realized that there should be several thousand unprotected devices on the Internet.
 
@@ -134,7 +134,7 @@ Uploaded for research purposes and so we can develop IoT and such.*
 
 #HSLIDE
 
-### Let's catch one hunter ...
+### soo ... let's catch one hunter ...
 
 <pre>
 2016-10-28 05:00:46+0200 admin trying auth password
