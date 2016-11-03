@@ -4,17 +4,47 @@
 * What is DNS and why we should care
 * What is/are IoT
 * How to build a IoT botnet yourself and how to track one
-* Why black- and whitehats love cat pictures?
+* Why black- and whitehat hackers love cat pictures?
+
+#HSLIDE?image=media/43.png
+
+#VSLIDE
+
+
 
 #HSLIDE
 
-#HSLIDE
+## DNS
 
-DNS
+```
+;; QUESTION SECTION:
+;spotify.com.                   IN      A
+
+;; ANSWER SECTION:
+spotify.com.            300     IN      A       194.132.197.147
+spotify.com.            300     IN      A       194.132.198.165
+spotify.com.            300     IN      A       194.132.198.228
+
+;; AUTHORITY SECTION:
+spotify.com.            300     IN      NS      ns3.spotify.com.
+spotify.com.            300     IN      NS      ns4.spotify.com.
+spotify.com.            300     IN      NS      ns5.spotify.com.
+spotify.com.            300     IN      NS      ns2.spotify.com.
+
+;; ADDITIONAL SECTION:
+ns2.spotify.com.        300     IN      A       194.132.168.117
+ns3.spotify.com.        300     IN      A       193.235.32.2
+ns4.spotify.com.        300     IN      A       194.132.162.51
+ns5.spotify.com.        300     IN      A       194.68.28.185
+```
 
 #VSLIDE?image=media/43.png
 
 #VSLIDE?image=media/46.png
+
+#VSLIDE
+
+
 
 #HSLIDE
 
