@@ -6,11 +6,11 @@
 * How to build a IoT botnet yourself and how to track one
 * Why black- and whitehat hackers love cat pictures?
 
-#HSLIDE?image=media/43.png
+#HSLIDE?image=media/DNS_no_response.png
 
 #VSLIDE
 
-
+> Early Friday morning, Dyn, a company that provides Domain Name Servers (DNS) for a lot of heavily trafficked websites and services, came under a massive Distributed Denial of Service (DDoS) attack. This has disrupted access to many sites for people across the U.S. Yes, it’s why your Spotify app is offline, why you can’t stream Netflix, and why Twitter won’t load. 
 
 #HSLIDE
 
