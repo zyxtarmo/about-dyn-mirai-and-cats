@@ -122,7 +122,6 @@ Two years ago while spending some time with the Nmap Scripting Engine (NSE) some
 
 ## How many infected devices are there, really?
 
-* It is quite hard to measure the exact size of a network that constantly changes.
 * We enumerate the whole core network (the so-called "bn" component) multiple times a day, and the usual number of Wifatch instances is 60000 (and almost never exceeding 120000). Only these are currently being protected and disinfected.
 * In addition, there is a much larger number of devices with a much smaller component, the so-called "tn" component. The exact number of these is very hard to measure, but it should be around 200000-300000 at any point in time.
 
@@ -154,7 +153,8 @@ Uploaded for research purposes and so we can develop IoT and such.*
 2016-10-28 05:00:50+0200 Command found: history -c
 2016-10-28 05:00:50+0200 Closing TTY Log: 
   log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
-2016-10-28 05:00:50+0200 honeypot terminal protocol connection lost disconnected
+2016-10-28 05:00:50+0200 honeypot terminal protocol 
+  connection lost disconnected
 </pre>
 
 #VSLIDE
