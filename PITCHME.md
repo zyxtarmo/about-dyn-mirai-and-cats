@@ -1,10 +1,10 @@
 #HSLIDE
 
-## What happened 21.Oct 2016
-## What is DNS and why we should care
-## What is/are IoT
-## How to build a IoT botnet yourself and how to track one
-## Why black- and whitehats love cat pictures?
+* What happened 21.Oct 2016
+* What is DNS and why we should care
+* What is/are IoT
+* How to build a IoT botnet yourself and how to track one
+* Why black- and whitehats love cat pictures?
 
 #HSLIDE
 
@@ -26,7 +26,6 @@ DNS
 
 #HSLIDE
 
-```
 2016-10-28 05:00:46+0200 [SSHService ssh-userauth on HoneyPotTransport,913,125.17.68.42] admin trying auth password
 2016-10-28 05:00:46+0200 [SSHService ssh-userauth on HoneyPotTransport,913,125.17.68.42] login attempt [admin/qwerty] succeeded
 2016-10-28 05:00:49+0200 [SSHService ssh-userauth on HoneyPotTransport,913,125.17.68.42] admin authenticated with password
@@ -58,7 +57,6 @@ DNS
 2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] received eof, sending ctrl-d to command
 2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] Closing TTY Log: log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
 2016-10-28 05:00:50+0200 [SSHChannel session (0) on SSHService ssh-connection on HoneyPotTransport,913,125.17.68.42] honeypot terminal protocol connection lost disconnected
-```
 
 #HSLIDE
 
