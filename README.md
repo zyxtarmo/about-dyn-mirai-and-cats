@@ -11,7 +11,7 @@ http://pintechnews.com/dyn-a-managed-dns-service-hit-with-attack-popular-sites-s
 
  - What is IoT
  - What is DNS
-  - what is anycast and how it helps DNS (http://ddiguru.com/blog/118-introduction-to-anycast-dns)
+  - what is anycast and how it helps DNS (http://ddiguru.com/blog/118-introduction-to-anycast-dns , http://www.sanog.org/resources/sanog8/sanog8-dns-service-architecture-gaurab.pdf)
   - why is TTL important
  - what does mean 'being slashdotted'
 
