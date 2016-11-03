@@ -42,11 +42,17 @@ ns4.spotify.com.        300     IN      A       194.132.162.51
 ns5.spotify.com.        300     IN      A       194.68.28.185
 ```
 
-#VSLIDE?image=media/43.png
+#VSLIDE
 
-#VSLIDE?image=media/46.png
+![Unicast](image=media/43.png)
 
-#VSLIDE?image=media/dyn-network-map.png
+#VSLIDE
+
+![Anycast](image=media/46.png)
+
+#VSLIDE
+
+![Dyn network](media/dyn-network-map.png)
 
 #HSLIDE
 
@@ -55,6 +61,8 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 "connecting any device with an on and off switch to the Internet (and/or to each other). This includes everything from cellphones, coffee makers, washing machines, headphones, lamps, wearable devices and almost anything else you can think of.  This also applies to components of machines, for example a jet engine of an airplane or the drill of an oil rig."
 
 __... what about artificial cardiac pacemaker?__
+
+#VSLIDE?image=media/dyn-network-map.png
 
 #HSLIDE
 
