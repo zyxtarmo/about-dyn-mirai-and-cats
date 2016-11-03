@@ -1,14 +1,13 @@
 #HSLIDE
 
+## About Dyn, Mirai and cats
 * What happened 21.Oct 2016
 * What is DNS and why we should care
 * What is/are IoT
 * How to build a IoT botnet yourself and how to track one
 * Why black- and whitehat hackers love cat pictures?
 
-#HSLIDE
-
-![Error](media/DNS_no_response.png)
+#HSLIDE?image=media/DNS_no_response.png
 
 #VSLIDE
 
@@ -22,7 +21,7 @@
 
 ## DNS
 
-```
+<pre>
 ;; QUESTION SECTION:
 ;spotify.com.                   IN      A
 
@@ -42,18 +41,15 @@ ns2.spotify.com.        300     IN      A       194.132.168.117
 ns3.spotify.com.        300     IN      A       193.235.32.2
 ns4.spotify.com.        300     IN      A       194.132.162.51
 ns5.spotify.com.        300     IN      A       194.68.28.185
-```
+</pre>
+
+#VSLIDE?image=media/43.png
+
+#VSLIDE?image=media/46.png
 
 #VSLIDE
 
-![Unicast](media/43.png)
-
-#VSLIDE
-
-![Anycast](media/46.png)
-
-#VSLIDE
-
+## Dyn service network
 ![Dyn network](media/dyn-network-map.png)
 
 #HSLIDE
