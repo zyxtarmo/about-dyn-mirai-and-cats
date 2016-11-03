@@ -19,6 +19,14 @@ Denial of Service (DDoS)__ attack. This has disrupted access to many sites for p
 across the U.S. Yes, it’s why your __Spotify__ app is offline, why you can’t stream __Netflix__, 
 and why __Twitter__ won’t load. 
 
+#VSLIDE
+
+# Key Findings:
+
+* The Friday October 21, 2016 attack has been analyzed as a complex & sophisticated attack, using maliciously targeted, masked TCP and UDP traffic over port 53.
+* Dyn confirms Mirai botnet as primary source of malicious attack traffic.
+* Attack generated compounding recursive DNS retry traffic, further exacerbating its impact.
+
 #HSLIDE
 
 ## DNS
@@ -56,13 +64,27 @@ ns5.spotify.com.        300     IN      A       194.68.28.185
 
 #HSLIDE
 
+Mirai ..
+
+#VSLIDE
+
 ##IOT
 
 "connecting any device with an on and off switch to the Internet (and/or to each other). This includes everything from cellphones, coffee makers, washing machines, headphones, lamps, wearable devices and almost anything else you can think of.  This also applies to components of machines, for example a jet engine of an airplane or the drill of an oil rig."
 
 __... what about artificial cardiac pacemaker?__
 
-#VSLIDE?image=media/dyn-network-map.png
+#VSLIDE
+
+## How businesses see IoT ..
+
+![MS](media/business_iot.png)
+
+#VSLIDE
+
+## How hackers see IoT ..
+
+![IPCAM](media/1458871382569824928.jpg)
 
 #HSLIDE
 
