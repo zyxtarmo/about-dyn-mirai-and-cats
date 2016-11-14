@@ -29,6 +29,24 @@ and why __Twitter__ won’t load.
 
 #HSLIDE
 
+#VSLIDE
+
+## THIS
+
+![IPCAM](media/1458871382569824928.jpg)
+
+#VSLIDE
+
+## BROKE THIS
+
+![NETFLIX](media/netflix.jpg)
+
+#VSLIDE
+
+## BY BREAKING THIS
+
+![DNSHOW](media/how-dns-works.png)
+
 ## DNS
 
 <pre>
